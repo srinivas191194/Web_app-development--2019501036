@@ -1,0 +1,35 @@
+h1 {
+  color: red; }
+
+body {
+  background-color: black !important; }
+
+p {
+  color: rgba(44, 150, 123, 0.788); }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+
+.directors {
+  margin: 0 auto; }
+
+.icon {
+  display: inline; }
+
+.heading {
+  display: inline-block; }
+
+.navbar-brand {
+  color: red; }
+
+#main-text, h1, .heading {
+  text-align: center; }
+
+@media only screen and (max-width: 600px) {
+  #bg-colour {
+    background-color: #f8f4f4 !important; } }
+
+/*# sourceMappingURL=styles.css.map */

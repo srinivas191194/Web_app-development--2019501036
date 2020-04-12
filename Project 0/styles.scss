@@ -1,0 +1,43 @@
+$margin:auto;
+
+
+
+h1 {
+    @extend #main-text;
+    color : red;
+ }
+ body{
+     background-color: black !important;
+ }
+ p{
+     color: rgba(44, 150, 123, 0.788);
+ }
+ .center {
+display: block;
+margin-left: $margin;
+margin-right: $margin;
+width: 100%;
+}
+.directors{
+    margin: 0 $margin;
+}
+.icon{
+    display: inline;
+}
+.heading{
+    @extend #main-text;
+    display: inline-block;
+
+}
+.navbar-brand{
+    color:red;
+}
+#main-text{
+    text-align :center;
+}
+
+@media only screen and (max-width: 600px) {
+    #bg-colour {
+      background-color :rgb(248, 244, 244) !important;
+    }
+  }
